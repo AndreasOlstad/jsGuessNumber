@@ -1,0 +1,39 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url(./img/Background.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+h1,
+p {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 2.2rem;
+}
+
+#flex {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+input {
+  padding: 7px;
+  border: 2px solid grey;
+  border-radius: 3px;
+  background: transparent;
+  color: #fff;
+  outline: none;
+  font-size: 1rem;
+}
+
+button {
+  padding: 7px 20px;
+  border: 2px solid grey;
+  border-radius: 3px;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
